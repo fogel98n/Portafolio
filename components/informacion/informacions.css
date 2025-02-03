@@ -1,0 +1,30 @@
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: 10rem,1fr;
+    padding:1rem 12rem;
+}
+.sobre-mi{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    font-family: 'JetBrains Mono', monospace;
+    color:     rgb(255 255 255 / var(--tw-text-opacity, 1));
+    --tw-text-opacity: 4;
+    font-size:1.2rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.descrip_personal{
+    margin:1rem 0 ;
+    font-family: 'JetBrains Mono', monospace;
+    color:     rgb(255 255 255 / var(--tw-text-opacity, 1));
+    --tw-text-opacity: 4;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.nombre {
+    color: #0FD065; /* Verde */
+    font-weight: bold;
+  }
